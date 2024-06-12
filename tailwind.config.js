@@ -9,6 +9,16 @@ module.exports = {
         "monsterrat": ['monsterrat', 'sans-serif']
       }
     },
+    colors: {
+      charcoal: '#131313',
+      white: '#FFFFFF',
+    },
+    spacing: {
+      '1': '9px',
+      '2': '18px',
+      '3': '27px',
+      '12': '107px',
+    }
   },
   plugins: [],
 }
