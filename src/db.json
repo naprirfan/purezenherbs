@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "name": "Rempah Rendam",
+            "price": "Rp 148.000",
+            "description": "Lorem ipsum",
+            "tokopediaLink": "https://example.com",
+            "shopeeLink": "https://example.com"
+        }
+    ]
+}
