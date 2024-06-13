@@ -2,9 +2,9 @@ import db from '../../db.json';
 
 export const Products = () => {
     return (
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mb-6 lg:mb-8">
             <div className="container px-2">
-                <h2 className="text-4xl text-center my-4">Produk Kami</h2>
+                <h2 className="text-4xl text-center my-4 lg:my-6">Produk Kami</h2>
 
                 <div className="grid grid-cols-2 gap-2 auto-rows-auto lg:flex lg:flex-row lg:justify-between">
                     {
