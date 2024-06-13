@@ -10,7 +10,7 @@ export const Products = () => {
                     {
                         db.products.map((product) => (
                             <a className="block" href={`/product/${product.id}/${product.name}`}>
-                                <div className="relative border">
+                                <div className="relative border-gray border">
                                     <img className="object-cover center" src={product.image} alt={product.name} />
                                     <div className="absolute top-2 left-2">
                                         {product.name}

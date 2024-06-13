@@ -12,7 +12,7 @@ module.exports = {
     colors: {
       charcoal: '#131313',
       white: '#FFFFFF',
-      gray: '#F1F1F1'
+      gray: '#DCE1E0'
     },
     spacing: {
       '0': '0',
