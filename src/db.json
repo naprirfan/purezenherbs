@@ -1,11 +1,40 @@
 {
     "products": [
         {
+            "id": 1,
             "name": "Rempah Rendam",
             "price": "Rp 148.000",
             "description": "Lorem ipsum",
             "tokopediaLink": "https://example.com",
-            "shopeeLink": "https://example.com"
+            "shopeeLink": "https://example.com",
+            "image": "https://placehold.co/300x400/png"
+        },
+        {
+            "id": 1,
+            "name": "Rempah Rendam",
+            "price": "Rp 148.000",
+            "description": "Lorem ipsum",
+            "tokopediaLink": "https://example.com",
+            "shopeeLink": "https://example.com",
+            "image": "https://placehold.co/300x400/png"
+        },
+        {
+            "id": 1,
+            "name": "Rempah Rendam",
+            "price": "Rp 148.000",
+            "description": "Lorem ipsum",
+            "tokopediaLink": "https://example.com",
+            "shopeeLink": "https://example.com",
+            "image": "https://placehold.co/300x400/png"
+        },
+        {
+            "id": 1,
+            "name": "Rempah Rendam",
+            "price": "Rp 148.000",
+            "description": "Lorem ipsum",
+            "tokopediaLink": "https://example.com",
+            "shopeeLink": "https://example.com",
+            "image": "https://placehold.co/300x400/png"
         }
     ]
 }
