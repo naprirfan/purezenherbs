@@ -6,7 +6,7 @@ export const Products = () => {
             <div className="container px-2">
                 <h2 className="text-4xl text-center my-4 lg:my-6">Produk Kami</h2>
 
-                <div className="grid grid-cols-2 gap-2 auto-rows-auto lg:flex lg:flex-row lg:justify-between">
+                <div className="grid grid-cols-2 gap-2 lg:flex lg:flex-row lg:justify-between">
                     {
                         db.products.map((product) => (
                             <a className="block" href={`/product/${product.id}/${product.name}`}>

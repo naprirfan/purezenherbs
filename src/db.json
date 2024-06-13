@@ -11,8 +11,8 @@
         },
         {
             "id": 1,
-            "name": "Rempah Rendam",
-            "price": "Rp 148.000",
+            "name": "Wedang Merah",
+            "price": "Rp 108.000",
             "description": "Lorem ipsum",
             "tokopediaLink": "https://example.com",
             "shopeeLink": "https://example.com",
@@ -20,8 +20,8 @@
         },
         {
             "id": 1,
-            "name": "Rempah Rendam",
-            "price": "Rp 148.000",
+            "name": "Wedang Hitam",
+            "price": "Rp 108.000",
             "description": "Lorem ipsum",
             "tokopediaLink": "https://example.com",
             "shopeeLink": "https://example.com",
@@ -29,12 +29,34 @@
         },
         {
             "id": 1,
-            "name": "Rempah Rendam",
-            "price": "Rp 148.000",
+            "name": "Wedang Hangat",
+            "price": "Rp 108.000",
             "description": "Lorem ipsum",
             "tokopediaLink": "https://example.com",
             "shopeeLink": "https://example.com",
             "image": "https://placehold.co/300x400/png"
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "title": "Rasa yang Lezat",
+            "icon": "tasty.png"
+        },
+        {
+            "id": 1,
+            "title": "Umur Simpan Panjang",
+            "icon": "thumbs_up.png"
+        },
+        {
+            "id": 1,
+            "title": "Alami, tanpa bahan kimia",
+            "icon": "plant.png"
+        },
+        {
+            "id": 1,
+            "title": "Memiliki izin PIRT",
+            "icon": "document.png"
         }
     ]
 }

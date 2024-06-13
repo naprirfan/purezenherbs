@@ -4,20 +4,17 @@ export const ProductsFeature = () => {
     return (
         <div className="flex justify-center mb-6 lg:mb-8">
             <div className="container px-2">
-                <h2 className="text-4xl text-center my-4 lg:my-6">Mengapa Pilih Pure Zen Herbs?</h2>
+                <h2 className="text-4xl text-center mt-4 lg:my-6">Mengapa Pilih Pure Zen Herbs?</h2>
 
-                <div className="grid grid-cols-2 gap-2 auto-rows-auto lg:flex lg:flex-row lg:justify-between">
+                <img className="mt-6" src="https://placehold.co/400x400/png" alt="Mengapa Pilih Pure Zen Herbs?" />
+
+                <div className="grid grid-cols-2 gap-2 mt-4 lg:flex lg:flex-row lg:justify-between">
                     {
-                        db.products.map((product) => (
-                            <a className="block" href={`/product/${product.id}/${product.name}`}>
-                                <div className="relative border-gray border">
-                                    <img className="object-cover center" src={product.image} alt={product.name} />
-                                    <div className="absolute top-2 left-2">
-                                        {product.name}
-                                    </div>
-                                    <div className="bg-charcoal w-full block text-white text-center py-1">{product.price}</div>
-                                </div>
-                            </a>
+                        db.features.map((feature) => (
+                            <div className="flex flex-col items-center">
+                                <img className="w-3 h-3 m-2" src={`/assets/images/${feature.icon}`} alt={feature.title} />
+                                <div className="uppercase text-center">{feature.title}</div>
+                            </div>
                         ))
                     }
                 </div>
