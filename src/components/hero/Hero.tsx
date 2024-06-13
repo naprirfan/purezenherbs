@@ -4,8 +4,8 @@ export const Hero = () => {
             <div className="container px-2 lg:flex lg:flex-row">
                 <div className="flex items-center lg:basis-1/2">
                     <div>
-                        <h1 className="text-5xl lg:text-6xl mb-3 text-bold">Where Traditional Wisdom Meets Convenience</h1>
-                        <button className="text-white bg-charcoal px-4 py-2">Belanja Sekarang</button>
+                        <h1 className="mb-3 text-5xl text-bold text-center lg:text-left lg:text-6xl">Where Traditional Wisdom Meets Convenience</h1>
+                        <button className="text-white mx-auto block bg-charcoal px-4 py-2 lg:mx-0">Belanja Sekarang</button>
                     </div>
                 </div>
                 <div className="mt-3 lg:basis-1/2 lg:mt-0">
