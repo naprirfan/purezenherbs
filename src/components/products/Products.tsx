@@ -15,7 +15,7 @@ export const Products = () => {
                                     <div className="absolute top-2 left-2">
                                         {product.name}
                                     </div>
-                                    <div className="bg-charcoal w-full block text-white text-center py-1">Lihat Produk</div>
+                                    <div className="bg-charcoal w-full block text-white text-center py-1">{product.price}</div>
                                 </div>
                             </a>
                         ))
