@@ -10,11 +10,13 @@ export const Products = () => {
                     {
                         db.products.map((product) => (
                             <div className="relative border">
-                                <img src={product.image} alt={product.name} />
-                                <div className="absolute top-2 left-2">
-                                    {product.name}
-                                </div>
-                                <a href="#" className="bg-charcoal w-full block text-white text-center py-1 block absolute top-0">Lihat Produk</a>
+                                <a href={`/product/${product.id}/${product.name}`}>
+                                    <img src={product.image} alt={product.name} />
+                                    <div className="absolute top-2 left-2">
+                                        {product.name}
+                                    </div>
+                                    <div className="bg-charcoal w-full block text-white text-center py-1">Lihat Produk</div>
+                                </a>
                             </div>
                         ))
                     }
