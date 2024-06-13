@@ -11,7 +11,7 @@ export const ProductsFeature = () => {
                 <div className="grid grid-cols-2 gap-2 mt-4 lg:flex lg:flex-row lg:justify-between">
                     {
                         db.features.map((feature) => (
-                            <div className="flex flex-col items-center">
+                            <div key={feature.id} className="flex flex-col items-center">
                                 <img className="w-3 h-3 m-2" src={`/assets/images/${feature.icon}`} alt={feature.title} />
                                 <div className="uppercase text-center">{feature.title}</div>
                             </div>

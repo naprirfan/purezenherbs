@@ -9,7 +9,7 @@ export const Products = () => {
                 <div className="grid grid-cols-2 gap-2 lg:flex lg:flex-row lg:justify-between">
                     {
                         db.products.map((product) => (
-                            <a className="block" href={`/product/${product.id}/${product.name}`}>
+                            <a key={product.id} className="block" href={`/product/${product.id}/${product.name}`}>
                                 <div className="relative border-gray border">
                                     <img className="object-cover center" src={product.image} alt={product.name} />
                                     <div className="absolute top-2 left-2">

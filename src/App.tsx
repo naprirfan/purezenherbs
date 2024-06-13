@@ -13,6 +13,7 @@ function App() {
       <Products />
       <Separator />
       <ProductsFeature />
+      <Separator />
     </div>
   );
 }

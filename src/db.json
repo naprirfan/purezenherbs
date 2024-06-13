@@ -10,7 +10,7 @@
             "image": "https://placehold.co/300x400/png"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Wedang Merah",
             "price": "Rp 108.000",
             "description": "Lorem ipsum",
@@ -19,7 +19,7 @@
             "image": "https://placehold.co/300x400/png"
         },
         {
-            "id": 1,
+            "id": 3,
             "name": "Wedang Hitam",
             "price": "Rp 108.000",
             "description": "Lorem ipsum",
@@ -28,7 +28,7 @@
             "image": "https://placehold.co/300x400/png"
         },
         {
-            "id": 1,
+            "id": 4,
             "name": "Wedang Hangat",
             "price": "Rp 108.000",
             "description": "Lorem ipsum",
@@ -44,17 +44,17 @@
             "icon": "tasty.png"
         },
         {
-            "id": 1,
+            "id": 2,
             "title": "Umur Simpan Panjang",
             "icon": "thumbs_up.png"
         },
         {
-            "id": 1,
+            "id": 3,
             "title": "Alami, tanpa bahan kimia",
             "icon": "plant.png"
         },
         {
-            "id": 1,
+            "id": 4,
             "title": "Memiliki izin PIRT",
             "icon": "document.png"
         }
