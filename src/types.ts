@@ -5,3 +5,10 @@ export interface IProduct {
     tokopediaLink: string;
     shopeeLink: string;
 }
+
+export interface IReview {
+    id: number;
+    author: string;
+    description: string;
+    stars: number;
+}

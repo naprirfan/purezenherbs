@@ -58,5 +58,25 @@
             "title": "Memiliki izin PIRT",
             "icon": "document.png"
         }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "author": "John Doe",
+            "description": "Enak bgt bla bla bla",
+            "stars": 5
+        },
+        {
+            "id": 2,
+            "author": "Irfan",
+            "description": "Enak bgt bla bla bla",
+            "stars": 5
+        },
+        {
+            "id": 3,
+            "author": "Ira",
+            "description": "Enak bgt bla bla bla",
+            "stars": 3
+        }
     ]
 }
