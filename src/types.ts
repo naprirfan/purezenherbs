@@ -11,4 +11,5 @@ export interface IReview {
     author: string;
     description: string;
     stars: number;
+    image: string;
 }

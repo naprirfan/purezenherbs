@@ -63,20 +63,23 @@
         {
             "id": 1,
             "author": "John Doe",
-            "description": "Enak bgt bla bla bla",
-            "stars": 5
+            "description": "No mess, cleans and whitens beautifully, and no plastic or repeat containers!",
+            "stars": 5,
+            "image": "https://placehold.co/400x400/png"
         },
         {
             "id": 2,
             "author": "Irfan",
-            "description": "Enak bgt bla bla bla",
-            "stars": 5
+            "description": "I have been using Bits for a year now, and I am very happy with them. My dental hygienist is too! I highly recommend them!",
+            "stars": 5,
+            "image": "https://placehold.co/400x400/png"
         },
         {
             "id": 3,
             "author": "Ira",
-            "description": "Enak bgt bla bla bla",
-            "stars": 3
+            "description": "Best product so far!",
+            "stars": 5,
+            "image": "https://placehold.co/400x400/png"
         }
     ]
 }

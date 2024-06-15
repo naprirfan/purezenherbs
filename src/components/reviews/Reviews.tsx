@@ -8,14 +8,17 @@ export const Reviews = () => {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
           items: 3,
+          partialVisibilityGutter: 30,
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
           items: 2,
+          partialVisibilityGutter: 30,
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
           items: 1,
+          partialVisibilityGutter: 30,
         }
       };
       
@@ -29,10 +32,9 @@ export const Reviews = () => {
                 draggable={false}
                 showDots={false}
                 responsive={responsive}
-                ssr={true}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={3500}
+                autoPlaySpeed={4500}
                 centerMode={true}
                 keyBoardControl={true}
                 customTransition="all .5"
