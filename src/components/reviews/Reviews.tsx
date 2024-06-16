@@ -23,7 +23,7 @@ export const Reviews = () => {
       };
       
     return (
-        <div className="bg-charcoal text-white mb-6 lg:mb-8">
+        <div className="bg-charcoal text-white pb-2 mb-6 lg:mb-8">
             <div className="container px-2">
                 <h2 className="text-4xl text-center py-4 lg:py-6">Testimoni Pelanggan</h2>
             </div>
@@ -47,6 +47,9 @@ export const Reviews = () => {
                     ))
                 }
             </Carousel>
+            <div className="m-4 text-center">
+                <a href="#" className="text-charcoal text-center uppercase bg-turquoise px-4 py-2 lg:mx-0">Belanja Sekarang</a>
+            </div>
         </div>
     )
 }
