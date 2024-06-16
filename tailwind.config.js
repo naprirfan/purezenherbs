@@ -12,7 +12,8 @@ module.exports = {
     colors: {
       charcoal: '#131313',
       white: '#FFFFFF',
-      gray: '#DCE1E0'
+      gray: '#DCE1E0',
+      turquoise: '#72F2C7',
     },
     spacing: {
       '0': '0',

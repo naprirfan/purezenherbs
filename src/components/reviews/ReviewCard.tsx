@@ -10,7 +10,11 @@ export const ReviewCard = ({data}: {data: IReview}) => {
                 <div className="px-1">{data.author}</div>
                 <div className="p-1">
                     {Array.from(Array(data.stars), (e, i) => {
-                        return <i className="fa fa-star" key={i}></i>
+                        return (
+                            <span className="text-turquoise">
+                                <i className="fa fa-star" key={i}></i>
+                            </span>
+                        )
                     })}
                 </div>
             </div>
