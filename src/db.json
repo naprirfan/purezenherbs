@@ -41,22 +41,22 @@
         {
             "id": 1,
             "title": "Rasa yang Lezat",
-            "icon": "tasty.png"
+            "icon": "fa fa-thumbs-up fa-xl"
         },
         {
             "id": 2,
             "title": "Umur Simpan Panjang",
-            "icon": "thumbs_up.png"
+            "icon": "fa fa-clock fa-xl"
         },
         {
             "id": 3,
             "title": "Alami, tanpa bahan kimia",
-            "icon": "plant.png"
+            "icon": "fa fa-pagelines fa-xl"
         },
         {
             "id": 4,
             "title": "Memiliki izin PIRT",
-            "icon": "document.png"
+            "icon": "fa fa-book fa-xl"
         }
     ],
     "reviews": [

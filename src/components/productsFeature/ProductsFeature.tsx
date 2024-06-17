@@ -14,8 +14,8 @@ export const ProductsFeature = () => {
                         {
                             db.features.map((feature) => (
                                 <div key={feature.id} className="flex flex-col items-center">
-                                    <img className="w-3 h-3 m-2" src={`/assets/images/${feature.icon}`} alt={feature.title} />
-                                    <div className="uppercase text-center">{feature.title}</div>
+                                    <i className={feature.icon}></i>
+                                    <div className="uppercase text-center pt-3">{feature.title}</div>
                                 </div>
                             ))
                         }
@@ -27,8 +27,8 @@ export const ProductsFeature = () => {
                     {
                         db.features.map((feature) => (
                             <div key={feature.id} className="flex flex-col items-center">
-                                <img className="w-3 h-3 m-2" src={`/assets/images/${feature.icon}`} alt={feature.title} />
-                                <div className="uppercase text-center">{feature.title}</div>
+                                <i className={feature.icon}></i>
+                                <div className="uppercase text-center pt-3">{feature.title}</div>
                             </div>
                         ))
                     }
