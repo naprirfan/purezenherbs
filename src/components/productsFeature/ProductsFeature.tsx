@@ -9,7 +9,7 @@ export const ProductsFeature = () => {
                 <h2 className="text-4xl text-center mt-4 lg:my-6">{title}</h2>
 
                 <div className="lg:hidden">
-                    <img className="mt-6" src="https://placehold.co/400x400/png" alt={title} />
+                    <img className="mt-6 mx-auto" src="https://placehold.co/400x400/png" alt={title} />
                     <div className="grid grid-cols-2 gap-2 mt-4 lg:flex lg:flex-row lg:justify-between">
                         {
                             db.features.map((feature) => (
