@@ -34,8 +34,9 @@ export const Reviews = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={4500}
+                autoPlaySpeed={50000}
                 centerMode={true}
+                pauseOnHover={true}
                 keyBoardControl={true}
                 customTransition="all .5"
                 transitionDuration={500}
