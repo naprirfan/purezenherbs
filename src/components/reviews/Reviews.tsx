@@ -34,7 +34,7 @@ export const Reviews = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={50000}
+                autoPlaySpeed={5000}
                 centerMode={true}
                 pauseOnHover={true}
                 keyBoardControl={true}
@@ -48,7 +48,7 @@ export const Reviews = () => {
                     ))
                 }
             </Carousel>
-            <div className="m-4 text-center">
+            <div className="my-8 text-center">
                 <a href="#" className="text-charcoal text-center uppercase bg-turquoise px-4 py-2 lg:mx-0">Belanja Sekarang</a>
             </div>
         </div>
