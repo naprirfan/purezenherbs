@@ -7,12 +7,12 @@ export const Footer = () => {
     return (
         <footer className="flex justify-center py-4 bg-charcoal">
             <div className="container px-2 text-white">
-                <div className="mb-2">
-                    <h3 className="mb-1">Find us on</h3>
+                <div className="mb-3">
+                    <h3 className="mb-2">Find us on</h3>
                     {
                         db.socialMedias.map(media => {
                             return (
-                                <a href={media.url} key={media.id} className="mr-1">
+                                <a href={media.url} key={media.id} className="mr-2">
                                     <i className={media.icon}></i>
                                 </a>
                             )

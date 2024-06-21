@@ -112,17 +112,17 @@
     "socialMedias": [
         {
             "id": 1,
-            "icon": "fa-brands fa-instagram fa-xl",
+            "icon": "fa-brands fa-instagram fa-2xl",
             "url": "https://instagram.com"
         },
         {
             "id": 2,
-            "icon": "fa-brands fa-facebook fa-xl",
+            "icon": "fa-brands fa-facebook fa-2xl",
             "url": "https://instagram.com"
         },
         {
             "id": 3,
-            "icon": "fa-brands fa-whatsapp fa-xl",
+            "icon": "fa-brands fa-whatsapp fa-2xl",
             "url": "https://instagram.com"
         }
     ]
