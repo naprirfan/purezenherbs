@@ -1,4 +1,5 @@
 import './App.css';
+import { FAQ } from './components/faq/FAQ';
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { Products } from './components/products/Products';
@@ -15,6 +16,7 @@ function App() {
       <Separator />
       <ProductsFeature />
       <Reviews />
+      <FAQ />
     </div>
   );
 }
