@@ -1,5 +1,6 @@
 import './App.css';
 import { FAQ } from './components/faq/FAQ';
+import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { Products } from './components/products/Products';
@@ -17,6 +18,7 @@ function App() {
       <ProductsFeature />
       <Reviews />
       <FAQ />
+      <Footer />
     </div>
   );
 }
