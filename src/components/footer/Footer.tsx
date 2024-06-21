@@ -21,7 +21,7 @@ export const Footer = () => {
                 </div>
                 <Separator mode="LIGHT" />
                 <div className="mt-2">
-                    &copy; Copyright {currentYear} | Pure Zen Herbs
+                    &copy; Hak Cipta Pure Zen Herbs - {currentYear}
                 </div>
             </div>
         </footer>
