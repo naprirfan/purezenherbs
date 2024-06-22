@@ -1,6 +1,6 @@
 export const Hero = () => {
     return (
-        <div className="bg-turquoise w-full border-b flex justify-center py-4">
+        <div className="bg-gray w-full border-b flex justify-center py-4">
             <div className="container px-2 lg:flex lg:flex-row">
                 <div className="flex items-center lg:basis-1/2">
                     <div className="flex flex-col items-center">
@@ -9,7 +9,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <div className="mt-3 lg:basis-1/2 lg:mt-0">
-                    <img className="block" src="https://cdn.midjourney.com/3b6c6b77-fbaf-4800-b10e-825683e42271/0_0.jpeg" alt="Pure Zen Herbs" />
+                    <img className="block" src="/images/herbs.jpeg" alt="Pure Zen Herbs" />
                 </div>
             </div>
         </div>
